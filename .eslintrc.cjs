@@ -23,6 +23,10 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 0,
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'linebreak-style': [
+      'error',
+      process.platform === 'win32' ? 'windows' : 'unix',
+    ],
     'import/extensions': 'off',
     'import/prefer-default-export': 'off',
     'no-debugger': 'off',
