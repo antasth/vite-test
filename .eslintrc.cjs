@@ -7,8 +7,8 @@ module.exports = {
     'airbnb',
     'airbnb-typescript',
     'airbnb/hooks',
-    'eslint:recommended',
     'plugin:react/recommended',
+    'plugin:prettier/recommended',
     'plugin:@typescript-eslint/recommended',
   ],
   overrides: [],
@@ -38,5 +38,11 @@ module.exports = {
     'max-lines-per-function': ['error', 40],
     '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/no-non-null-assertion': 'error',
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
   },
 };
