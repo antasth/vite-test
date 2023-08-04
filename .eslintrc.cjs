@@ -23,15 +23,10 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 0,
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
-    'linebreak-style': [
-      'error',
-      process.platform === 'win32' ? 'windows' : 'unix',
-    ],
     'import/extensions': 'off',
     'import/prefer-default-export': 'off',
     'no-debugger': 'off',
     'no-console': 0,
-    'class-methods-use-this': 'off',
     '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/lines-between-class-members': 'off',
     '@typescript-eslint/array-type': [
