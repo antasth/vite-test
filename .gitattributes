@@ -1,5 +1,5 @@
 # Auto-detect text files
-core.autocrlf
+* text=auto eol=lf
 
 # Binary files
 *.gif binary
